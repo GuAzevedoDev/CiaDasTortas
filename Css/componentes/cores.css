@@ -1,0 +1,24 @@
+/* Declaracao variaveis de cores */
+
+:root {
+  --cor-p1: #391610;
+  --cor-p2: #ede0c8;
+  --cor-1: #000;
+  --cor-2: #fff;
+}
+
+.cor-p1 {
+  color: var(--cor-p1);
+}
+
+.cor-p2 {
+  color: var(--cor-p2);
+}
+
+.cor-1 {
+  color: var(--cor-1);
+}
+
+.cor-2 {
+  color: var(--cor-2);
+}
