@@ -1,0 +1,43 @@
+.main-bg {
+  background: var(--cor-p2);
+  min-height: 100vh;
+  
+}
+
+.main {
+  background: var(--cor-p1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+  border-radius: 50px;
+}
+
+.main-esquerda {
+  padding: 150px 0 0 100px;
+  width: 80ch;
+}
+
+.main-esquerda h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main-esquerda h2 {
+  color: #e8d5b0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.main-esquerda a {
+  justify-self: start;
+  align-self: center;
+  margin-top: 100px;
+  font-size: var(--tamanho-text);
+  font-weight: 700;
+}
+
+.main img {
+  height: 100%;
+  border-radius: 50px;
+}

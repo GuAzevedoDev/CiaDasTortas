@@ -1,13 +1,29 @@
+:root {
+  --tamanho-title: 2.625rem;
+  --tamanho-sub-title: 1.375rem;
+  --tamanho-text: 1.125rem;
+  --fonte-1: "Playfair Display", sans-serif;
+  --fonte-2: "Nunito", sans-serif;
+}
+
 /* Tamanhos de fontes */
 
 .title {
-  font-size: 2.625rem;
+  font-size: var(--tamanho-title);
 }
 
 .sub-title {
-  font-size: 1.375rem;
+  font-size: var(--tamanho-sub-title);
 }
 
 .text {
-  font-size: 1.125rem;
+  font-size: var(--tamanho-text);
+}
+
+.fonte-1{
+  font-family: var(--fonte-1);
+}
+
+.fonte-2{
+  font-family: var(--fonte-2);
 }
