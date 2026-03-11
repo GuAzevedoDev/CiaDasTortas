@@ -2,5 +2,7 @@
 @import "componentes/cores.css";
 @import "componentes/tipografia.css";
 @import "componentes/componentes.css";
+@import "componentes/btns.css";
 @import "global/header.css";
+@import "global/headerMobile.css";
 @import "landingPage/main.css";

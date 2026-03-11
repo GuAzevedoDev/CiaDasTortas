@@ -6,6 +6,14 @@
   --fonte-2: "Nunito", sans-serif;
 }
 
+@media (max-width: 800px) {
+  :root {
+    --tamanho-title: 2.5rem;
+    --tamanho-sub-title: 1.125rem;
+    --tamanho-text: 1rem;
+  }
+}
+
 /* Tamanhos de fontes */
 
 .title {
@@ -20,10 +28,10 @@
   font-size: var(--tamanho-text);
 }
 
-.fonte-1{
+.fonte-1 {
   font-family: var(--fonte-1);
 }
 
-.fonte-2{
+.fonte-2 {
   font-family: var(--fonte-2);
 }
