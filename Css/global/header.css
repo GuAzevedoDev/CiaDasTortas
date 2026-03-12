@@ -26,6 +26,13 @@
   transform: translate(-50%, -50%);
 }
 
+.menu-links-container ul{
+  display: flex;
+  gap: 25px;
+}
+
+.menu-links-container p{display: none;}
+
 .header menu a {
   color: var(--cor-1);
   position: relative;

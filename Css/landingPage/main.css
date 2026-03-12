@@ -60,7 +60,7 @@
     grid-template-columns: 1fr;
     position: relative;
     height: 85vh;
-    padding: 60px 20px;
+    padding: 40px 20px 0 20px;
     display: flex;
     align-items: center;
     border-radius: 0;
