@@ -1,6 +1,7 @@
 .sobre-bg {
   background: var(--cor-p2);
   padding: 20px;
+  padding-bottom: 150px;
 }
 
 .sobre-text {
@@ -26,7 +27,8 @@
   margin-bottom: 90px;
 }
 
-.sobre-text > span::after {
+.baixo-title::after,
+.baixo-title::before {
   content: "";
   display: block;
   width: 55px;
@@ -39,17 +41,9 @@
   transform: translateY(-50%);
 }
 
-.sobre-text > span::before {
-  content: "";
-  display: block;
-  width: 55px;
-  height: 0.5px;
-  background: var(--cor-p1);
-  margin: 0 auto;
-  position: absolute;
+.baixo-title::before {
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  left: initial;
 }
 
 .sobre {
@@ -114,6 +108,7 @@
   height: 120px;
   border-radius: 25px;
   padding: 10px;
+  box-shadow: 1px 1px 3px var(--cor-1);
 }
 
 .sobre-card h1 {
@@ -237,8 +232,8 @@
     font-size: 2rem;
   }
 
-  .sobre-text > span::after,
-  .sobre-text > span::before {
+  .baixo-title::after,
+  .baixo-title::before {
     display: none;
   }
 }
