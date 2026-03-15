@@ -7,4 +7,9 @@
 @import "global/headerMobile.css";
 @import "landingPage/main.css";
 @import "landingPage/sobre.css";
-@import "landingPage/produtos.css"; 
+@import "landingPage/produtos.css";
+@import "landingPage/paraQuem.css";
+@import "landingPage/parceiros.css";
+@import "landingPage/fundadores.css";
+@import "landingPage/avaliacoes.css";
+@import "global/footer.css";

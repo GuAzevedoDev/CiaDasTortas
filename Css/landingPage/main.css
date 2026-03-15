@@ -42,22 +42,22 @@
   height: 100%;
   border-radius: 50px;
   object-fit: cover;
-  object-position: left  ;
+  object-position: left;
 }
 
-@media(max-width:1350px){
-  .main{
-    grid-template-columns: 1fr 1.5fr;   
-}
-.main-esquerda {
+@media (max-width: 1350px) {
+  .main {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .main-esquerda {
     width: 65ch;
   }
 }
 @media (max-width: 1200px) {
-  .main-bg{
+  .main-bg {
     padding: 0;
   }
-  
+
   .main {
     grid-template-columns: 1fr;
     position: relative;
@@ -115,8 +115,8 @@
   }
 }
 
-@media(max-width:800px){
-  .main{
+@media (max-width: 800px) {
+  .main {
     height: 90vh;
   }
 }

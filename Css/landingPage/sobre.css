@@ -14,7 +14,6 @@
   font-weight: 700;
   color: var(--cor-p1);
   font-family: var(--fonte-1);
-  margin-bottom: 15px;
 }
 
 .sobre-text span {
@@ -27,24 +26,6 @@
   margin-bottom: 90px;
 }
 
-.baixo-title::after,
-.baixo-title::before {
-  content: "";
-  display: block;
-  width: 55px;
-  height: 0.5px;
-  background: var(--cor-p1);
-  margin: 0 auto;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.baixo-title::before {
-  right: 0;
-  left: initial;
-}
 
 .sobre {
   display: grid;
@@ -156,9 +137,6 @@
     justify-items: center;
   }
 
-  .sobre-text {
-    margin-bottom: 20px;
-  }
 
   .sobre-esquerda {
     display: flex;
@@ -235,5 +213,29 @@
   .baixo-title::after,
   .baixo-title::before {
     display: none;
+  }
+}
+
+@media (max-width: 800px){
+  .sobre-bg {
+    padding-bottom: 80px;
+  }
+  .fundadores-bg {
+    padding-bottom: 80px;
+  }
+  .parceiros-bg {
+    padding-bottom: 80px;
+  }
+  .fundadores-bg {
+    padding-bottom: 80px;
+  }
+  .produtos-bg {
+    padding-bottom: 80px;
+  }
+  .paraQuem-bg {
+    padding-bottom: 80px;
+  }
+  .main-bg {
+    padding-bottom: 80px;
   }
 }

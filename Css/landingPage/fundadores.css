@@ -1,0 +1,145 @@
+.fundadores-bg {
+  background-color: #f6f3eb;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.fundadores-bg::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 11vw;
+  min-height: 50px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23ede0c8' fill-opacity='1' d='M0,96L80,112C160,128,320,160,480,149.3C640,139,800,85,960,80C1120,75,1280,117,1360,138.7L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.fundadores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  z-index: 2;
+  margin-top: 60px;
+}
+
+.fundadores-imagem {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fundadores-circulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: var(--cor-p1);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.fundadores-foto {
+  position: absolute;
+  z-index: 2;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Area de Conteudo */
+.fundadores-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 600px;
+  justify-self: center;
+}
+
+.fundadores-tag {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--cor-p1);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fundadores-tag::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 25px;
+  background-color: var(--cor-p1);
+  border-radius: 2px;
+}
+
+.fundadores-conteudo h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.fundadores-conteudo p {
+  color: var(--cor-1);
+  line-height: 1.6;
+}
+
+/* Responsivo */
+@media (max-width: 1200px) {
+  .fundadores {
+    gap: 40px;
+  }
+
+  .fundadores-conteudo h1 {
+    font-size: 2.5rem;
+  }
+  .fundadores-bg::before {
+    top: 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  .fundadores {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .fundadores-conteudo {
+    align-items: center;
+  }
+
+  .fundadores-imagem {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fundadores-bg {
+    padding: 60px 20px;
+  }
+
+  .fundadores-conteudo h1 {
+    font-size: 2.2rem;
+  }
+
+  .fundadores-tag {
+    font-size: 1.2rem;
+  }
+}

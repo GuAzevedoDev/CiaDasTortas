@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Companhia das Tortas é especializada na produção artesanal de doces com padrão profissional. Brownies e Palhas Italianas perfeitos para revenda.">
   <link rel="stylesheet" href="Css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,14 +13,18 @@
 </head>
 
 <body>
-  <header class="header-bg">
+  <a href="#" class="btn-whatsapp" aria-label="Fale conosco no WhatsApp">
+    <img src="Img/icones/whatsapp.svg" alt="WhatsApp">
+    <span>Entrar em contato</span>
+  </a>
+  <header class="header-bg" id="cabecalho">
     <div class="header container">
       <input type="checkbox" id="menu-toggle">
       <img src="Img/logo.svg" alt="" class="logo-header">
       <label for="menu-toggle" class="btn-mobile" aria-label="Abrir Menu">
         <span id="hamburger"></span>
       </label>
-      <menu class="fonte-2" id="menu" role="menu">
+      <menu class="fonte-2" id="menu">
         <div class="menu-top-bg"></div>
         <div class="menu-top-content">
           <div class="menu-logo-circle">
@@ -28,31 +33,32 @@
         </div>
         <div class="menu-links-container">
           <p class="menu-section-title">Navegação</p>
-          <ul>
-            <li><a href="">INÍCIO</a></li>
-            <li><a href="produtos.html">PRODUTOS</a></li>
-            <li><a href="parceiros.html">PARCEIROS</a></li>
-            <li><a href="sobre.html">SOBRE</a></li>
-            <li><a href="contato.html">CONTATO</a></li>
+          <ul aria-label="Menu Principal">
+            <li><a href="#inicio">INÍCIO</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#produtos">PRODUTOS</a></li>
+            <li><a href="#parceiros">PARCEIROS</a></li>
+            <li><a href="#fundadores">FUNDADORES</a></li>
+            <li><a href="#contato">CONTATO</a></li>
           </ul>
         </div>
       </menu>
       <a href="" class="btn-1 cor-p2 text"> <img src="Img/icones/instagram.svg" alt="">Instagram</a>
     </div>
   </header>
-  <main class="main-bg">
+  <main class="main-bg" id="inicio">
     <div class="main container">
       <div class="main-esquerda">
         <h1 class="title cor-p2">Eleve o faturamento do seu negócio com produtos que vendem todos os dias.</h1>
         <h2 class="sub-title">Brownie, Palha Italiana e Marmitinha de Brownie com alto giro e excelente margem para revenda.</h2>
-        <a href="" class="btn-2 cor-p1">Entrar em contato</a>
+        <a href="#contato" class="btn-2 cor-p1">Entrar em contato</a>
       </div>
       <div>
-        <img src="Img/main/main.png" alt="">
+        <img src="Img/main/main.png" alt="Deliciosas tortas da Companhia das Tortas">
       </div>
     </div>
   </main>
-  <section class="sobre-bg">
+  <section class="sobre-bg" id="sobre">
     <div class="sobre container">
       <div class="sobre-text">
         <h1 class="title cor-p2">Sobre a Companhia das Tortas</h1>
@@ -62,10 +68,10 @@
         <p class="text">A Companhia das Tortas é especializada na produção artesanal de doces com padrão profissional, desenvolvidos para gerar rentabilidade real em pontos de venda. Mais do que doces — entregamos giro, apresentação e consistência.</p>
         <p class="text">A Companhia das Tortas é especializada na produção artesanal de doces com padrão.</p>
         <p class="text">A Companhia das Tortas é especializada na produção artesanal de doces com padrão.</p>
-        <a href="" class="btn-2 cor-p1">Entrar em contato</a>
+        <a href="#contato" class="btn-2 cor-p1">Entrar em contato</a>
       </div>
       <div class="sobre-direita">
-        <img src="Img/sobre/sobre.png" alt="">
+        <img src="Img/sobre/sobre.png" alt="Produção artesanal da Companhia das tortas">
       </div>
       <footer class="sobre-footer">
         <div class="sobre-card">
@@ -83,7 +89,7 @@
       </footer>
     </div>
   </section>
-  <section class="produtos-bg ">
+  <section class="produtos-bg" id="produtos" aria-label="Nossos Produtos">
     <div class="produtos container">
       <div class="produtos-title">
         <h1 class="title cor-p1">Conheça nossos produtos</h1>
@@ -94,38 +100,304 @@
           <span class="produto-tag">🔥 Mais Vendido</span>
           <h2 class="produto-nome">Brownie Premium</h2>
           <div class="produto-img">
-            <img src="Img/produtos/brownie.png" alt="Brownie Premium">
+            <img src="Img/produtos/brownie.png" alt="Doce Brownie Premium">
           </div>
-          <a href="" class="btn-1 cor-p2">Ver Mais</a>
+          <a href="#contato" class="btn-1 cor-p2">Ver Mais</a>
         </li>
         <li class="produto-card">
           <span class="produto-tag">🔥 Mais Vendido</span>
           <h2 class="produto-nome">Palha Italiana</h2>
           <div class="produto-img">
-            <img src="Img/produtos/brownie.png" alt="Palha Italiana">
+            <img src="Img/produtos/brownie.png" alt="Doce Palha Italiana">
           </div>
-          <a href="" class="btn-1 cor-p2">Ver Mais</a>
+          <a href="#contato" class="btn-1 cor-p2">Ver Mais</a>
         </li>
         <li class="produto-card">
           <span class="produto-tag">🔥 Novidade</span>
           <h2 class="produto-nome">Marmita De Brownie</h2>
           <div class="produto-img">
-            <img src="Img/produtos/brownie.png" alt="Marmita De Brownie">
+            <img src="Img/produtos/brownie.png" alt="Marmitinha de Brownie">
           </div>
-          <a href="" class="btn-1 cor-p2">Ver Mais</a>
+          <a href="#contato" class="btn-1 cor-p2">Ver Mais</a>
         </li>
         <li class="produto-card">
           <span class="produto-tag">🔥 Novidade</span>
           <h2 class="produto-nome">Marmita De Brownie</h2>
           <div class="produto-img">
-            <img src="Img/produtos/brownie.png" alt="Marmita De Brownie">
+            <img src="Img/produtos/brownie.png" alt="Marmitinha de Brownie">
           </div>
-          <a href="" class="btn-1 cor-p2">Ver Mais</a>
+          <a href="#contato" class="btn-1 cor-p2">Ver Mais</a>
         </li>
       </ul>
     </div>
   </section>
-  <script src="JavaScript/script.js"></script>
+  <section class="paraQuem-bg" aria-labelledby="para-quem-title">
+    <div class="paraQuem container">
+      <div class="paraQuem-title cor-p1">
+        <h1 class="title" id="para-quem-title">Para quem é essa parceria?</h1>
+        <span class="sub-title baixo-title">Se você deseja aumentar o ticket médio sem precisar produzir, essa parceria é para você.</span>
+      </div>
+      <ul class="list-alvos">
+        <li>
+          <img src="Img/icones/cafeteria.svg" alt="Ícone de Cafeteria">
+          <h2>Cafeterias</h2>
+        </li>
+
+        <li>
+          <img src="Img/icones/lanchonetes.svg" alt="Ícone de Lanchonete">
+          <h2>Lanchonetes</h2>
+        </li>
+
+        <li>
+          <img src="Img/icones/restaurantes.svg" alt="Ícone de Restaurantes">
+          <h2>Restaurantes</h2>
+        </li>
+
+        <li>
+          <img src="Img/icones/salao.svg" alt="Ícone de Salão">
+          <h2>Salões</h2>
+        </li>
+
+        <li>
+          <img src="Img/icones/lojas.svg" alt="Ícone de Lojas">
+          <h2>Lojas</h2>
+        </li>
+        <li>
+          <img src="Img/icones/barbearias.svg" alt="Ícone de Barbearia">
+          <h2>Barbearias</h2>
+        </li>
+      </ul>
+      <div class="paraQuem-footer">
+        <a href="#contato" class="btn-1 cor-p1">Entrar em contato</a>
+        <span class="text">Receba nossa tabela e condições comerciais.</span>
+      </div>
+    </div>
+  </section>
+  <section class="parceiros-bg" id="parceiros" aria-labelledby="parceiros-title">
+    <div class="parceiros container">
+      <div class="parceiros-title">
+        <h1 class="title cor-p1" id="parceiros-title">Nossos Pontos Parceiros</h1>
+        <span class="sub-title baixo-title cor-p1">Conheça nossos pontos parceiros</span>
+      </div>
+      <ul class="parceiros-list">
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2>Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+      </ul>
+      <div class="parceiros-footer">
+        <div href="" class="btn-1 cor-2">Mostrar mais</div>
+      </div>
+      <ul class="parceiros-list list-2">
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2>Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+        <li>
+          <img src="img/parceiros/pizzariaGuarani.png" alt="Fachada da Pizzaria Guarani">
+          <h2 class="cor-p1">Pizzaria Guarani</h2>
+          <p>Av. Waldomiro Lobo, 1180 - Guarani, Belo Horizonte - MG, 31814-620</p>
+        </li>
+      </ul>
+      <div class="parceiros-footer">
+        <div href="" class="btn-1 cor-2 btn_menos">Mostrar menos</div>
+      </div>
+    </div>
+  </section>
+  <section class="fundadores-bg" id="fundadores">
+    <div class="fundadores container">
+      <!-- ...conteudo dos fundadores... -->
+      <div class="fundadores-imagem">
+        <div class="fundadores-circulo"></div>
+        <img src="Img/fundadores/fundadores.png" alt="Wasley e Jocasta" class="fundadores-foto" onerror="this.src='Img/sobre/sobre.png'">
+      </div>
+      <div class="fundadores-conteudo">
+        <span class="fundadores-tag fonte-2">Fundadores e Confeiteiros</span>
+        <h1 class="title cor-p1 fonte-2">Conheça o Wasley<br>Azevedo e Jocasta</h1>
+        <p class="text fonte-2">Com mais de 10 anos de experiência em confeitaria artesanal, Wasley fundou a Companhia das Tortas com um propósito claro: levar doces artesanais de verdade para cada vez mais pontos de venda.</p>
+        <p class="text fonte-2">Cada receita é desenvolvida por ele com técnica, cuidado e um padrão de qualidade que faz a diferença no paladar do cliente e no resultado de quem revende.</p>
+        <p class="text fonte-2">Mais do que um confeiteiro — Wasley é um empreendedor que entende que sabor e estratégia andam juntos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="avaliacoes-bg">
+    <div class="avaliacoes container">
+      <div class="avaliacoes-header">
+        <div class="aspas-icon">
+          <img src="Img/icones/aspas.svg" alt="">
+        </div>
+        <h1 class="title cor-p1 fonte-1">O que os clientes<br>estao dizendo</h1>
+
+        <div class="avaliacoes-controles">
+          <button id="prev-avaliacoes" aria-label="Avaliações anteriores">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" fill="#1e1e1e" />
+            </svg>
+          </button>
+          <div class="avaliacoes-barra">
+            <div class="avaliacoes-progresso"></div>
+          </div>
+          <button id="next-avaliacoes" aria-label="Próximas avaliações">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="#1e1e1e" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="avaliacoes-slider-container">
+        <ul class="avaliacoes-list" id="avaliacoes-list">
+          <li class="avaliacao-card">
+            <p class="text fonte-2">"Comprei a marmitinha de brownie e me apaixonei! Textura perfeita, sabor incrível. Com certeza vou pedir de novo."</p>
+            <div class="avaliacao-estrelas">
+              <span class="cor-p1">★★★★★</span>
+            </div>
+            <div class="avaliacao-cliente">
+              <img src="https://i.pravatar.cc/150?img=5" alt="Ana Carolina" class="cliente-foto">
+              <span class="cliente-nome fonte-2">Ana Carolina</span>
+            </div>
+          </li>
+
+          <li class="avaliacao-card">
+            <p class="text fonte-2">"Comprei a marmitinha de brownie e me apaixonei! Textura perfeita, sabor incrível. Com certeza vou pedir de novo."</p>
+            <div class="avaliacao-estrelas">
+              <span class="cor-p1">★★★★★</span>
+            </div>
+            <div class="avaliacao-cliente">
+              <img src="https://i.pravatar.cc/150?img=11" alt="Eduardo" class="cliente-foto">
+              <span class="cliente-nome fonte-2">Eduardo</span>
+            </div>
+          </li>
+
+          <li class="avaliacao-card">
+            <p class="text fonte-2">"Comprei a marmitinha de brownie e me apaixonei! Textura perfeita, sabor incrível. Com certeza vou pedir de novo."</p>
+            <div class="avaliacao-estrelas">
+              <span class="cor-p1">★★★★★</span>
+            </div>
+            <div class="avaliacao-cliente">
+              <img src="https://i.pravatar.cc/150?img=47" alt="Amanda" class="cliente-foto">
+              <span class="cliente-nome fonte-2">Amanda</span>
+            </div>
+          </li>
+
+          <li class="avaliacao-card">
+            <p class="text fonte-2">"Comprei a marmitinha de brownie e me apaixonei! Textura perfeita, sabor incrível. Com certeza vou pedir de novo."</p>
+            <div class="avaliacao-estrelas">
+              <span class="cor-p1">★★★★★</span>
+            </div>
+            <div class="avaliacao-cliente">
+              <img src="https://i.pravatar.cc/150?img=33" alt="Carlos" class="cliente-foto">
+              <span class="cliente-nome fonte-2">Carlos</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </section>
+
+  <footer class="footer-bg" id="contato">
+    <div class="footer container">
+      <!-- Coluna 1: Logo e Texto -->
+      <div class="footer-col footer-logo-text">
+        <img src="Img/logo.svg" alt="Logo Cia das Tortas" class="footer-logo">
+        <p class="text cor-p2">Tortas e Doces artesanais feitos com carinho.Tortas e Doces artesanais feitos com carinho.</p>
+      </div>
+
+      <!-- Coluna 2: Menu -->
+      <div class="footer-col footer-menu">
+        <h2 class="cor-p2 fonte-1">Menu</h2>
+        <ul aria-label="Links úteis do rodapé">
+          <li><a href="#inicio" class="cor-p2">INICIO</a></li>
+          <li><a href="#sobre" class="cor-p2">SOBRE</a></li>
+          <li><a href="#produtos" class="cor-p2">PRODUTOS</a></li>
+          <li><a href="#parceiros" class="cor-p2">PARCEIROS</a></li>
+          <li><a href="#fundadores" class="cor-p2">FUNDADORES</a></li>
+          <li><a href="#contato" class="cor-p2">CONTATO</a></li>
+        </ul>
+      </div>
+
+      <!-- Coluna 3: Redes e Contato -->
+      <div class="footer-col footer-contato">
+        <h2 class="cor-p2 fonte-1">Redes e contato</h2>
+        <ul aria-label="Informações de contato e redes sociais">
+          <li>
+            <a href="#" class="cor-p2" aria-label="Nosso WhatsApp">
+              <img src="Img/icones/whatsapp.svg" alt="Ícone WhatsApp"> Whatsapp
+            </a>
+          </li>
+          <li>
+            <a href="#" class="cor-p2" aria-label="Nosso Instagram">
+              <img src="Img/icones/instagramBranco.svg" alt="Ícone Instagram"> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="mailto:contato@ciadastortas.com" class="cor-p2" aria-label="Nosso E-mail">
+              <img src="Img/icones/gmail.svg" alt="Ícone Gmail"> Gmail
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="JavaScript/contadores.js"></script>
+  <script src="JavaScript/header-scroll.js"></script>
+  <script src="JavaScript/parceiros-mostrar.js"></script>
+  <script src="JavaScript/avaliacoes.js"></script>
 </body>
 
 </html>

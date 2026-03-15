@@ -4,7 +4,24 @@
   margin-right: auto;
 }
 
-/* Botoes */
+.baixo-title::after,
+.baixo-title::before {
+  content: "";
+  display: block;
+  width: 55px;
+  height: 0.5px;
+  background: var(--cor-p1);
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.baixo-title::before {
+  right: 0;
+  left: initial;
+}
 
 
 
