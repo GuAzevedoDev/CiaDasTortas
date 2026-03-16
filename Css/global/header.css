@@ -30,7 +30,6 @@
   background: var(--cor-p1);
 }
 
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -100,3 +99,12 @@
     gap: 10px;
   }
 }
+
+.header menu a.ativo {
+  color: var(--cor-p1);
+}
+
+.header menu a.ativo::before {
+  width: 100%;
+}
+

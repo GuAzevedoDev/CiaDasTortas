@@ -149,3 +149,21 @@
     max-width: 80%;
   }
 }
+
+@media (max-width: 600px) {
+  .produtos-bg {
+    padding: 5px;
+  }
+  .produtos-list li {
+    flex: 0 0 300px;
+  }
+  .produtos-list {
+    gap: 30px;
+  }
+  .produto-img {
+    max-width: 80%;
+  }
+  .produtos-title span{
+    margin-bottom: 50px;
+  }
+}

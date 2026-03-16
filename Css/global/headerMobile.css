@@ -14,7 +14,7 @@
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
   .header-bg {
     position: fixed;
     top: 0;
@@ -302,4 +302,10 @@
   .header > .btn-1 {
     display: none;
   }
+
+  .header menu a.ativo {
+    background: #2a2a2a;
+    color: var(--cor-p2);
+  }
 }
+

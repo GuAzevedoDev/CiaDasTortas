@@ -1,0 +1,127 @@
+.carro-chefe-bg {
+  background: var(--cor-p2);
+  padding: 80px 20px;
+}
+
+.carro-chefe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.carro-chefe-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.carro-chefe-text h1 {
+  font-size: var(--tamanho-title);
+  color: var(--cor-p1);
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+
+.carro-chefe-text h1::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: var(--cor-p1);
+  border-radius: 10px;
+}
+
+.carro-chefe-box {
+  background: var(--cor-p2);
+  padding: 30px 40px;
+  border-radius: 0 50px 0 50px;
+  margin-bottom: 30px;
+  border-left: 4px solid var(--cor-p1);
+}
+
+.carro-chefe-box p {
+  font-size: var(--tamanho-text);
+  color: var(--cor-p1);
+  line-height: 1.6;
+}
+
+.carro-chefe-sabores {
+  padding-left: 20px;
+}
+
+.carro-chefe-sabores h3 {
+  font-size: var(--tamanho-sub-title);
+  color: var(--cor-p1);
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.carro-chefe-list {
+  list-style: none;
+}
+
+.carro-chefe-list li {
+  font-size: var(--tamanho-text);
+  color: var(--cor-1);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.carro-chefe-list li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--cor-p1);
+  border-radius: 50%;
+}
+
+.carro-chefe-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 50px;
+  box-shadow: -15px 15px 0px var(--cor-p2);
+}
+
+@media (max-width: 1200px) {
+  .carro-chefe {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .carro-chefe-img {
+    height: 400px;
+    box-shadow: -10px 10px 0px var(--cor-p2);
+  }
+}
+
+@media (max-width: 800px) {
+  .carro-chefe-bg {
+    padding: 60px 20px;
+  }
+  .carro-chefe-text h1 {
+    margin-left: 10px;
+    font-size: 1.8rem;
+  }
+  .carro-chefe-text h1::before {
+    left: -15px;
+  }
+  .carro-chefe-box {
+    padding: 20px;
+    border-radius: 0 30px 0 30px;
+  }
+  .carro-chefe-sabores {
+    padding-left: 0;
+  }
+  .carro-chefe-img {
+    height: 300px;
+    border-radius: 30px;
+  }
+}

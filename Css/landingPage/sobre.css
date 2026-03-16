@@ -188,7 +188,7 @@
 
 @media (max-width: 800px) {
   .sobre-text span {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     font-size: 1.125rem;
   }
 
@@ -216,6 +216,8 @@
   }
 }
 
+
+
 @media (max-width: 800px){
   .sobre-bg {
     padding-bottom: 80px;
@@ -230,9 +232,6 @@
     padding-bottom: 80px;
   }
   .produtos-bg {
-    padding-bottom: 80px;
-  }
-  .paraQuem-bg {
     padding-bottom: 80px;
   }
   .main-bg {
