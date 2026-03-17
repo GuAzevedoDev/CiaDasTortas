@@ -101,9 +101,10 @@
   position: relative;
   width: 100%;
   text-align: center;
+  vertical-align: top;
 }
 
-.sobre-card h1::after {
+.sobre-card h1::before {
   content: "";
   display: block;
   width: 3px;
@@ -122,6 +123,17 @@
   font-weight: 400;
   color: var(--cor-1);
   font-family: var(--fonte-2);
+}
+
+.sobre-footer h1::after{
+  content: "+";
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--fonte-2);
+  color: var(--cor-p1);
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
 }
 
 @media (max-width: 1500px) {
