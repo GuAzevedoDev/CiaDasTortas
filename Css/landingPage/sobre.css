@@ -189,7 +189,7 @@
     height: 100px;
   }
 
-  .sobre-card h1 {
+  .sobre-card h1,.sobre-footer h1::after {
     font-size: 2.5rem;
   }
 
@@ -218,7 +218,7 @@
     padding: 20px 10px;
   }
 
-  .sobre-card h1 {
+  .sobre-card h1,.sobre-footer h1::after {
     font-size: 2rem;
   }
 
